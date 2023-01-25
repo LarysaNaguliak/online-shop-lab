@@ -1,0 +1,10 @@
+.final-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 300px;
+}
+.confirm-actions {
+    display: flex;
+    gap: 10px;
+}

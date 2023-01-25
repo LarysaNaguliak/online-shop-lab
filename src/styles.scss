@@ -1,0 +1,21 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+.mat-toolbar.mat-primary {
+  background: #0344ff;
+}
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+  background-color:#03ddff;
+  ;
+}
+.mat-toolbar.mat-primary {
+  height: 40px;// ширина footer
+}

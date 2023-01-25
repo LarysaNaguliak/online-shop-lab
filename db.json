@@ -1,0 +1,150 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "1. Ікона",
+      "price": "2500",
+      "size": "45x70",
+      "image": "assets/images/icona 1.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    },
+    {
+      "id": 2,
+      "title": "2. Свята Анна",
+      "price": "2500",
+      "size": "45x70",
+      "image": "assets/images/icona 2.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    },
+    {
+      "id": 3,
+      "title": "3. Мати Божа",
+      "price": "3000",
+      "size": "50x70",
+      "image": "assets/images/icona 3.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    },
+    {
+      "id": 4,
+      "title": "4. Ікона",
+      "price": "3000",
+      "size": "50x70",
+      "image": "assets/images/icona 4.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    },
+    {
+      "id": 5,
+      "title": "5. Ісус",
+      "price": "2500",
+      "size": "40x60",
+      "image": "assets/images/icona 5.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    },
+    {
+      "id": 6,
+      "title": "6. Мати Божа",
+      "price": "5000",
+      "size": "70x1200",
+      "image": "assets/images/icona 6.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    },
+    {
+      "id": 7,
+      "title": "7. Покрова",
+      "price": "2500",
+      "size": "40х70",
+      "image": "assets/images/icona 7.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    },
+    {
+      "id": 8,
+      "title": "8. Святий Юрій",
+      "price": "3000",
+      "size": "60х80",
+      "image": "assets/images/icona 8.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    },
+    {
+      "id": 9,
+      "title": "9. Святий Кирило",
+      "price": "2800",
+      "size": "40х70",
+      "image": "assets/images/icona 9.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    },
+    {
+      "id": 10,
+      "title": "10. Святий Методій",
+      "price": "2800",
+      "size": "40х70",
+      "image": "assets/images/icona 10.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": 6,
+      "title": "6. Мати Божа",
+      "price": "5000",
+      "size": "70x1200",
+      "image": "assets/images/icona 6.jpg",
+      "configure": {
+        "frame": "дерево",
+        "glass": "під склом"
+      },
+      "quantity": 1
+    }
+  ],
+  "orders": [
+    {
+      "email": "kjl@jhkhk",
+      "phone": "56464654",
+      "name": "lklk",
+      "items": [
+        {
+          "id": 10,
+          "title": "10. Святий Методій",
+          "price": "",
+          "size": "50х50",
+          "image": "assets/images/icona 10.jpg",
+          "configure": {
+            "frame": "дерево",
+            "glass": "під склом"
+          },
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    }
+  ]
+}

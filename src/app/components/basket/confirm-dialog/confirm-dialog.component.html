@@ -1,0 +1,23 @@
+<form [formGroup]="confirm" class="final-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Ім'я</mat-label>
+    <input matInput formControlName="name"
+           placeholder="">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Телефон</mat-label>
+    <input matInput formControlName="phone"
+           placeholder="Введіть номер телефону">
+  </mat-form-field>
+  <mat-form-field class="example-full-width">
+    <mat-label>Email</mat-label>
+    <input type="email" matInput formControlName="email"
+           placeholder="Наприклад pat@example.com">
+  </mat-form-field>
+
+  <div class="confirm-action">
+    <button class="button" mat-flat-button color="basic" (click)="close()">Відміна</button>
+    <button class="button" mat-flat-button color="primary" (click)="close(true)">Замовити</button>
+
+  </div>
+</form>

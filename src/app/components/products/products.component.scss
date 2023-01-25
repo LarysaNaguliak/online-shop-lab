@@ -1,0 +1,29 @@
+.container {
+  margin: 0 auto 0;
+  display: flex;
+  margin-bottom: 70px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.mat-card {
+  background-color: rgb(255, 255, 255);
+  color: black ;// колір тексту
+  margin-right: 10px; // відступ між зображеннями товарів
+}
+
+.button {
+  color: white; 
+  margin-right: 5px;// відступ між кнопками кошик та детально
+}
+
+.image {
+  max-height: 300px;
+  max-width: 300px;
+  object-fit: contain;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}

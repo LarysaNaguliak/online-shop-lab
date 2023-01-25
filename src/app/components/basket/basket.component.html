@@ -1,0 +1,23 @@
+<div *ngIf="basket?.length" class="basket-action">
+  <button class="button" mat-flat-button color="warn" (click)="openDialog()">Замовити ({{basket?.length}} товари)</button>
+</div>
+
+<div class="container">
+
+  <mat-card class="example-card" *ngFor="let item of basket">
+    <mat-card-title>{{item.title}}</mat-card-title>
+    <img class="image" mat-card-image src="{{item.image}}" />
+    <mat-card-content>
+      <p>Ціна: {{item.price | currency}}</p>
+      <p>Розмір: {{item.size}}</p>
+      <p>Рамка: {{item.configure.frame}}</p>
+      <p>Оформлення: {{item.configure.glass}}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="button" mat-flat-button color="primary" (click)="minusItemFromBasket(item)">-</button>
+      <p>К-сть: {{item.quantity}}</p>
+      <button class="button" mat-flat-button color="primary" (click)="plusItemFromBasket(item)">+</button>
+    </mat-card-actions>
+  </mat-card>
+
+</div>
