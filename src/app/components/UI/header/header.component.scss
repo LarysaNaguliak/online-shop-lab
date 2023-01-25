@@ -1,0 +1,32 @@
+.example-spacer {
+  flex: 1 1 auto; // коефіцієнт при гнучкості
+}
+
+::ng-deep .flex-wrapper {
+display: flex;
+flex-direction: column;
+margin-bottom: 20px;// відступ між рядками заголовку
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; // відступ зверху до тексту назва магазину
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+
+  &.button {
+    margin-left: 5px;// відступ між кнопками
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.no-select {
+  cursor: pointer;
+  user-select: none;
+}
